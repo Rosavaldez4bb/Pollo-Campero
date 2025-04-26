@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  
+  header {
+    background-color: #69e4e0;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+  }
+  
+ 
+  main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  main h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #31abab;
+  }
+  
+  main p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .info-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .info-item h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .info-item p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+footer button {
+    background-color: #9faef9;
+    color: white;
+    border: none;
+    padding: 0.7em 1.8em;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer button:hover {
+    background-color: #8880d5;
+  }
+
+  .button-container {
+    --background: #fefbff;
+    --inner-shadow: #9faef9;
+    --inner-outline: #34217d;
+    --inner-outline-bottom: #fafcfe;
+    --inner-outline-middle: #8880d5;
+    --inner-outline-outer-top: #fefcff;
+    --inner-outline-outer-bottom-1: #29107b;
+    --line-1: #8676c9;
+    --line-2: #5c69ca;
+    position: relative;
+    background: var(--background);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 17px;
+    padding: 0.7em 1.8em;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 8px 1px var(--inner-shadow),
+      0px 2px 0px 0px var(--inner-outline-bottom),
+      0px -2px 0px 0px var(--inner-outline),
+      -2px -2px 0px 0px var(--inner-outline),
+      2px -2px 0px 0px var(--inner-outline),
+      0px 0px 0px 6px var(--inner-outline-middle),
+      0px -2px 0px 7px var(--inner-outline-outer-top),
+      0px 4px 0px 7px var(--inner-outline-outer-bottom-1);
+  }
+  
+  .button-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+  }
+  
+  .button-line-1 {
+    height: 0.2em;
+    width: 4em;
+    border-radius: 10em;
+    display: inline-block;
+    background: var(--line-1);
+  }
+  
+  .button-line-2 {
+    height: 0.2em;
+    width: 3em;
+    border-radius: 10em;
+    display: inline-block;
+    background: var(--line-2);
+  }
